@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilepage"
+    tools:context="com.example.danny_000.bluetoothgeosoprt.Profile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danny Mikhaeel"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="danny.mikhaeel"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:saveEnabled="false"
+                android:singleLine="true"
+                android:background="@drawable/profileinfobg"
+                android:drawableLeft="@drawable/user"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="March, 15 1989"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:saveEnabled="false"
+                android:background="@drawable/profileinfobg"
+                android:drawableLeft="@drawable/dob"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="+61 402 418 856"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:saveEnabled="false"
+                android:background="@drawable/profileinfobg"
+                android:drawableLeft="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="danny.mikhaeel.1@gmail.com"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:background="@drawable/profileinfobg"
+                android:drawableLeft="@drawable/email"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/updatebuttonbg"
+        android:text="Updade Info"
+        android:textSize="20sp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>

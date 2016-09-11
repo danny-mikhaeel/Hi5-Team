@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Small Dimensions = "Medium Dimensions * 0.75" For Example: 210*.75 = 157.5-->
+    <dimen name="ldpi_margin_top">285dip</dimen>
+    <dimen name="ldpi_login_views_width">262.5dip</dimen>
+
+    <!-- Medium Dimensions -->
+    <dimen name="mdpi_margin_top">380dip</dimen>
+    <dimen name="mdpi_login_views_width">350dip</dimen>
+
+    <!-- Large Dimensions = "Medium Dimensions * 1.5" For Example: 210*1.5 = 315 -->
+    <dimen name="hdpi_margin_top">570dip</dimen>
+    <dimen name="hdpi_login_views_width">525dip</dimen>
+
+    <!-- XLarge Dimensions = "Medium Dimensions * 2" For Example: 210*1.5 = 420 -->
+    <dimen name="xhdpi_margin_top">760dip</dimen>
+    <dimen name="xhdpi_login_views_width">700dip</dimen>
+</resources>

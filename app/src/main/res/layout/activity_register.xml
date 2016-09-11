@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/registration"
+    tools:context="com.example.danny_000.bluetoothgeosoprt.Register">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        >
+    <!--    android:layout_height="360dp" -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:gravity="center"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:inputType="textPersonName"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:textStyle="bold"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:textStyle="bold"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-Password"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:textStyle="bold"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Birth"
+                android:gravity="center"
+                android:inputType="date"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:textStyle="bold"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:gravity="center"
+                android:inputType="phone"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:textStyle="bold"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:gravity="center"
+                android:inputType="textWebEmailAddress"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorLiteBlue"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorHint"
+                android:textStyle="bold"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/submitbtn"
+        />
+
+</LinearLayout>
